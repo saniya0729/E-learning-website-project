@@ -1,0 +1,587 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #f3f4f6; */
+  color: #333;
+}
+
+.lina-img {
+  width: 2.5rem;
+  background-color: grey;
+  border-radius: 50%;
+  align-items: center;
+}
+.lina-text {
+  margin-bottom: 2rem;
+}
+.header-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+nav {
+  max-width: 1652px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 0.8%;
+  padding-left: 5%;
+}
+.logo-box {
+  border: 2px solid #00fff0;
+  height: 83px;
+  width: 83px;
+  transform: rotate(45deg);
+}
+ul li {
+  list-style: none;
+}
+h2 {
+  margin-right: 30%;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5rem;
+}
+ul li {
+  /* padding: 20px 20px 30px 30px; */
+  align-items: center;
+  font-family: "poppins";
+  font-size: 22px;
+  font-weight: 400;
+  color: #5b5b5b;
+}
+.lina-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: grey;
+  margin-left: 5rem;
+  /* margin-right: 1rem; */
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.down-arrow {
+  width: 10px;
+  height: 10px;
+  padding-top: 8px;
+  padding-left: 7px;
+}
+.lina-dropdown {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 1.5rem;
+}
+
+.home-section h1 {
+  text-align: center;
+  padding: 2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #49bbbd;
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+}
+.pricing-card {
+  margin: 2rem;
+  padding: 2rem;
+}
+.pricing-card p {
+  padding-bottom: 1rem;
+  font-weight: 700;
+  color: #49bbbd;
+}
+.pricing-card h2 {
+  font-size: 3rem;
+}
+.pricing-card .forever-text {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.pricing-card:hover {
+  box-shadow: 5px 2px 5px 5px rgb(194, 193, 193);
+  border-radius: 10px;
+}
+#pricing-card-second {
+  border: none;
+  font-size: 1.2rem;
+  box-shadow: 5px 2px 5px 5px rgb(194, 193, 193);
+  border-radius: 10px;
+}
+.pricing-card h4 {
+  font-weight: 400;
+  color: #2d3436;
+}
+.pricing-card button {
+  /* margin-left: 30%; */
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border: 2px solid rgb(219, 219, 219);
+  background-color: white;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #49bbbd;
+}
+.pricing-card button:hover {
+  background-color: #49bbbd;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+}
+.try-btn {
+  margin-top: 5.7rem;
+}
+.license-btn {
+  margin-top: 2.9rem;
+}
+.remote-section {
+  margin: 4rem;
+}
+.remote-learing-container {
+  height: 40vh;
+  margin: auto;
+  text-align: center;
+  background-color: #252641;
+  border-radius: 35px;
+  /* align-content: center;  */
+}
+.remote-learing-container h1 {
+  font-weight: 600;
+  color: white;
+  line-height: 54px;
+  padding-top: 1.5rem;
+}
+.remote-learing-container p {
+  font-size: 1rem;
+  color: #ffffff;
+  padding: 1rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.remote-learing-container h1 p {
+  padding: 3rem;
+}
+.start-learning-btn {
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #49bbbd;
+  color: white;
+  font-weight: 700;
+  margin: 1rem;
+  font-family: "poppins";
+}
+@media screen and (min-width: 1200px) {
+  ul li {
+    padding: 20px 20px 30px 30px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 1199px) {
+  ul li {
+    padding: 10px 10px;
+    padding-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5b5b5b;
+  }
+  .pricing-card h2 {
+    font-size: 2rem;
+  }
+  .pricing-card h4 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .pricing-container {
+    flex-direction: column;
+  }
+}
+.collapse-container {
+  width: 80vw;
+
+  margin: 20px auto;
+
+  background-color: #f2f2f2;
+
+  border-radius: 8px;
+
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
+  overflow: hidden;
+}
+
+.collapse-header {
+  padding: 15px;
+
+  background-color: #fff;
+
+  border-bottom: 2px solid #eee;
+
+  cursor: pointer;
+}
+
+.collapse-header h2 {
+  margin: 0;
+
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.collapse-content {
+  background-color: #fff;
+
+  max-height: 0;
+
+  transition: max-height 0.3s ease-in-out;
+}
+
+.collapse-content p {
+  /* margin-left: 2rem; */
+  font-size: 0.8rem;
+  padding: 2rem;
+}
+
+.collapse-container.open .collapse-content {
+  max-height: 300px;
+}
+
+.collapse-header::before {
+  content: "\f078";
+
+  font-family: FontAwesome;
+
+  font-size: 1.2em;
+
+  float: right;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.collapse-container.open .collapse-header::before {
+  transform: rotate(180deg);
+}
+
+.collapse-header h2 span.collapse-circle {
+  height: 20px;
+  width: 20px;
+  background-color: #55efc4;
+  border-radius: 50%;
+}
+.student-section {
+  height: 896px;
+  width: 100%;
+  background-color: rgb(235, 245, 255);
+}
+.student-heading {
+  padding: 2rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card {
+  border-radius: 25px;
+  background-color: #fff;
+}
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+  text-align: center;
+}
+.card-content .name {
+  display: contents;
+  text-align: center;
+}
+.image-content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.overlay::before,
+.overlay::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+}
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #fff;
+}
+.card-image {
+  position: relative;
+  height: 118px;
+  width: 118px;
+  padding: 3px;
+  border-radius: 6px;
+  margin: auto;
+}
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  background-color: rgb(214, 215, 217);
+  margin-top: 2rem;
+}
+.name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+
+  text-align: center;
+}
+.description {
+  font-size: 1.1rem;
+  color: #707070;
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  letter-spacing: 1px;
+}
+
+.swiper-navBtn {
+  transition: color 0.3s ease;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 25px;
+}
+.swiper-button-next {
+  right: 0;
+  background-color: #49bbbd;
+}
+.swiper-button-prev {
+  left: 0;
+  background-color: #49bbbd;
+}
+.swiper-pagination-bullet {
+  /* background-color: #6E93f7; */
+
+  opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
+.app-section {
+  margin-top: 17rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.app-available-container {
+  color: white;
+  margin-top: 4rem;
+  height: 20vh;
+  margin: auto;
+  text-align: center;
+  background-color: #252641;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.app-available-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.app-available-container h1 {
+  font-size: 2.3rem;
+}
+.app-available-container h3 {
+  padding: 0.8rem;
+  border-radius: 12px;
+  margin: 1rem;
+}
+.app-available-container .android {
+  background-color: #29b9e7;
+}
+.app-available-container .apple {
+  background-color: #49bbbd;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .app-available-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .app-available-container {
+    color: white;
+    margin-top: 4rem;
+    height: 40vh;
+    margin: auto;
+    text-align: center;
+    background-color: #252641;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .app-section {
+    margin-top: 10rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .app-available-container h1 {
+    font-size: 1.6rem;
+  }
+  .student-heading {
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+.teacher-box {
+  width: 787px;
+  height: 762px;
+  background-color: white;
+  box-shadow: 2px 10px 3px 3px rgb(247, 246, 246);
+  border-radius: 20px;
+  margin: 2rem;
+}
+.teacher-img {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 720px;
+  height: auto;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.teacher-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.teacher-box h1 {
+  padding: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.teacher-box p {
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  color: #696984;
+}
+.teacher-box button {
+  float: right;
+  margin-right: 2rem;
+  padding: 0.8rem 2rem;
+  background-color: #49bbbd;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .teacher-box {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 2px 10px 3px 3px rgb(247, 246, 246);
+    border-radius: 20px;
+    margin: 2rem;
+  }
+  .teacher-img {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .teacher-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .teacher-box h1 {
+    padding: 1rem;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .teacher-box p {
+    font-size: 1rem;
+    padding-left: 2rem;
+    color: #696984;
+  }
+  .teacher-box button {
+    float: right;
+    padding: 0.8rem 2rem;
+    margin: 1rem 1rem;
+    background-color: #49bbbd;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  ul li {
+    font-size: 0.8rem;
+    padding-top: 2rem;
+  }
+  .logo {
+    margin-top: 1rem;
+  }
+  ul {
+    justify-content: space-evenly;
+  }
+}
